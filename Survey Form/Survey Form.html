@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="simple survey">
+    <meta name="keywords" content="form">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <div id="container">
+    <header>          
+        <h1 id="title">Martial Arts For You !</h1>
+        <p id="description"><i>What martial art is best for you? Fill out the survey and we will help you choose</i></p>
+    </header>
+    <article>         
+            <form id="survey-form">
+                <section>
+                    <label class="info" for="name" id="name-label">Nick</label><input class="ap" type="text" name="name" id="name" placeholder="Jony" required>
+                    <label class="info" for="email" id="email-label">Email</label><input class="ap" type="email" name="email" id="email" placeholder="jony90@mail.com" required> 
+                    <label class="info" for="number" id="number-label">Age</label><input class="ap" type="number" name="nr" id="number" min="5" max="100" placeholder="34">
+                </section>
+
+                <section>
+                    <p class="p-survey">Preferred fighting style</p>
+                    <select name="dropdown" id="dropdown" class="ap">
+                        <option value="stand up  fighting">Stand up fighting</option>
+                        <option value="ground-fight">Ground fight</option>
+                        <option value="throwing">Throwing</option>
+                        <option value="Low-Impact">Low-Impact</option>
+                        <option value="hybrid">Hybrid</option>
+                </section>
+
+                </select>
+                <section>
+                    <p class="p-survey">Pace of the fight <span>(pick one or more)</span></p>
+                    <div id="pace">
+                    <label for="r1"><input type="radio" name="r1" id="r1" value="1" class="box">Aggressive</label> 
+                    <label for="r2"><input type="radio" name="r1" id="r2" value="2" class="box">Calm</label> 
+                    <label for="r3"><input type="radio" name="r1" id="r3" value="3" class="box">Moderate</label> 
+                    </div>
+                </section> 
+
+                <section>
+                    <p class="p-survey">Strong body parts</p>
+                    <div id="body">
+                    <label for="c1"><input type="checkbox" name="c1" id="c1" value="1" class="box">Legs</label>
+                    <label for="c2"><input type="checkbox" name="c2" id="c2" value="2" class="box">Hands</label>
+                    <label for="c3"><input type="checkbox" name="c3" id="c3" value="3" class="box">Corpus</label>
+                    </div>
+                </section>
+
+                <section>
+                        <p class="p-survey">Describe any additional skills you have</p>
+                    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="acrobatics, climbing etc."></textarea>
+                </section>
+                
+                <button type="submit" id="submit">SEND</button>
+            </form>
+        </article>
+        </div>
+        
+</main>
+</body>
+</html>
