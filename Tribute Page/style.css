@@ -1,0 +1,113 @@
+html {
+  font-size: 20px;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(221, 217, 217);
+  color: rgb(0, 0, 0);
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+#main {
+  text-align: center;
+}
+
+#title {
+  background-color: rgb(253, 253, 253);
+  padding: 1rem;
+}
+
+@media (max-width: 460px) {
+  #title {
+    font-size: 0.5rem;
+  }
+}
+
+#img-div {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  width: 60%;
+  margin: 1rem auto;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#img-caption {
+  border: none;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 0.5rem;
+  }
+}
+
+#tribute-info {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0;
+}
+
+@media (max-width: 460px) {
+  #tribute-info {
+    font-size: 0.5rem;
+  }
+}
+
+.text {
+  max-width: 60%;
+  text-align: justify;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  #tribute-info {
+    font-size: 0.5rem;
+  }
+}
+
+#footer {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 900;
+}
+
+@media (max-width: 460px) {
+  #footer {
+    font-size: 0.5rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgb(32, 32, 158);
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(76, 52, 121);
+}
+
+h2 {
+  text-align: center;
+}
+
+#source {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+@media (max-width: 460px) {
+  #source {
+    font-size: 0.4rem;
+  }
+}
