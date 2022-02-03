@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div id="header-logo">
+          <img id="header-img" src="dice.png" alt="dice" />Be<span>st Di</span
+          >ces
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#options">Options</a></li>
+            <li><a class="nav-link" href="#use">How to use</a></li>
+            <li><a class="nav-link" href="#price">Prices</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <article>
+          <section>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+              <h1>Send your contact!</h2>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="Enter your email address"
+              />
+              <input type="submit" value="Send contact" id="submit" />
+            </form>
+          </section>
+          <hr />
+          <section id="options">
+            <div class="info">
+              <h2>Options</h2>
+              <h3>Tetrahedron</h3>
+              <p>
+                Each face has three numbers, arranged such that the upright
+                number, placed either near the vertex or near the opposite edge,
+                is the same on all three visible faces. The upright numbers
+                represent the value of the roll. This die does not roll well and
+                thus it is usually thrown into the air instead.
+              </p>
+              <h3>Cube</h3>
+              <p>
+                A common die. The sum of the numbers on opposite faces is 7.
+              </p>
+              <h3>Octahedron</h3>
+              <p>
+                Each face is triangular and the die resembles two square
+                pyramids attached base-to-base. Usually, the sum of the opposite
+                faces is 9.
+              </p>
+              <h3>Pentagonal trapezohedron</h3>
+              <p>
+                Each face is a kite. The die has two sharp corners, where five
+                kites meet, and ten blunter corners, where three kites meet. The
+                ten faces usually bear numbers from zero to nine, rather than
+                one to ten (zero being read as "ten" in many applications).
+                Often all odd numbered faces converge at one sharp corner, and
+                the even ones at the other. The sum of the numbers on opposite
+                faces is usually 9 (if numbered 0–9) or 11 (if numbered 1–10).
+              </p>
+              <h3>Dodecahedron</h3>
+              <p>
+                Each face is a regular pentagon. The sum of the numbers on
+                opposite faces is usually 13.
+              </p>
+              <h3>Icosahedron</h3>
+              <p>
+                Faces are equilateral triangles. Icosahedra have been found
+                dating to Roman/Ptolemaic times, but it is not known if they
+                were used as gaming dice. Modern dice with 20 sides are
+                sometimes numbered 0–9 twice as an alternative to 10-sided dice.
+                The sum of the numbers on opposite faces is 21 if numbered 1–20.
+              </p>
+            </div>
+          </section>
+          <hr />
+          <section id="use">
+            <div class="info">
+              <h2>How to use</h2>
+              <iframe
+                id="video"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/aWectee4XSQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </section>
+          <hr />
+          <section id="price">   
+              <h2>Prices</h2>
+              <div class="dicePrice"><div>Standard Cube</div> 1$ per item </div>
+              <div class="dicePrice"><div>Dodecahedron and Icosahedron</div> 1$ per item</div>
+              <div class="dicePrice"><div>Others</div> 3$ per item</div>
+              <div class="dicePrice"><div>Special orders</div>Pricing negotiable</div>
+          </section>
+        </article>
+      </main>
+      <footer>Copyright 2022</footer>
+    </div>
+  </body>
+</html>
