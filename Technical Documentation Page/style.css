@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  font-size: 20px;
+  background-color: rgb(34, 33, 33);
+  color: aliceblue;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
+
+#navbar {
+  float: left;
+  position: fixed;
+  padding: 1rem;
+  height: 100%;
+}
+nav > header {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  #navbar,
+  #navbar > header {
+    margin: 0;
+    padding-left: 0.4rem;
+    width: 5rem;
+    font-size: 0.7rem;
+  }
+}
+
+h3 {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+
+.code {
+  background-color: rgb(3, 3, 3);
+  border: 0.1rem solid white;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .code {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+}
+
+nav > ul > li {
+  margin: 2rem 0rem;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+nav > ul:hover > li:hover {
+  color: rgb(209, 137, 137);
+  border-left: 0.1rem solid gray;
+  padding: 0.5rem;
+}
+
+li {
+  margin: 1rem 2rem;
+}
+
+.main-section {
+  margin: 0 10rem 0 18rem;
+  text-align: justify;
+  border-top: 0.1rem solid gray;
+}
+
+.main-section:first-child {
+  border-top: none;
+}
+
+@media (max-width: 1000px) {
+  .main-section {
+    margin: 0 0 0 6rem;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.nav-link,
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover,
+a:hover {
+  color: rgb(165, 162, 162);
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 1000px) {
+  p,
+  h1,
+  h3,
+  li {
+    font-size: 70%;
+  }
+}
