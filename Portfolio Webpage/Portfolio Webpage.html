@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="My presentation page." />
+    <meta
+      name="keywords"
+      content="portfolio, webpage, css, html, web designer"
+    />
+
+    <title>Portfolio Webpage</title>
+
+    <link rel="stylesheet" href="./fontello-4a9cfc81/css/fontello.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--------------------Navigation-------------------->
+    <div class="content">
+      <nav id="navbar" class="nav">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a class="nav-link" href="#welcome-section">
+              <span class="nav-icon">
+                <i class="icon-user"></i>
+              </span>
+              <span class="nav-text">O mnie</span>
+            </a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="#projects">
+              <span class="nav-icon">
+                <i class="icon-folder-open"></i>
+              </span>
+              <span class="nav-text">Projekty</span>
+            </a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-link" href="#footer">
+              <span class="nav-icon">
+                <i class="icon-info"></i>
+              </span>
+              <span class="nav-text">Kontakt</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="navbar-image"></div>
+      <!----------------Header------------------------>
+      <section id="welcome-section" class="header">
+        <div class="header-tile">
+          <h1 class="header-introduction">
+            Robert<span class="header-surname">Śliwiński</span>
+          </h1>
+          <h2 class="header-introduction--position">Front-end Developer</h2>
+          <div class="header-separator"></div>
+          <p class="header-paragraph">Poniżej możesz znaleść moje projekty.</p>
+          <p class="header-paragraph">Mam nadzieję że Ci się spodobają.</p>
+        </div>
+      </section>
+      <!----------------Projects------------------------>
+      <main>
+        <section id="projects" class="projects">
+          <h1 class="projects-header">Strefa projektów</h1>
+          <article class="projects-tile">
+            <div class="project-tile">
+              <a href="https://codepen.io/Mortagh/pen/BaJBYBo" target="_blank">
+                <img src="./TributePage.png" alt="Tribute Page" />
+                <p class="project-name">Tribute Page</p>
+              </a>
+            </div>
+            <div class="project-tile">
+              <a href="https://codepen.io/Mortagh/pen/dyJbdyr" target="_blank">
+                <img src="./SurveyForm.png" alt="Survey Form" />
+                <p class="project-name">Survey Form</p>
+              </a>
+            </div>
+            <div class="project-tile">
+              <a href="https://codepen.io/Mortagh/pen/xxPBmeZ" target="_blank">
+                <img
+                  src="./TechnicalDocumentationPage.png"
+                  alt="Technical Documentation Page"
+                />
+                <p class="project-name">Technical Documentation Page</p>
+              </a>
+            </div>
+            <div class="project-tile last">
+              <a href="https://codepen.io/Mortagh/pen/yLpBvYo" target="_blank">
+                <img
+                  src="./ProductLandingPage.png"
+                  alt="Product Landing Page"
+                />
+                <p class="project-name">Product Landing Page</p>
+              </a>
+            </div>
+          </article>
+        </section>
+      </main>
+      <!----------------Info------------------------>
+      <section id="footer">
+        <footer class="footer">
+          <div class="footer-logos">
+            <a
+              id="profile-link"
+              target="_blank"
+              href="https://github.com/R-Sliw"
+              ><img src="./GitHub-Mark-Light-64px.png" alt="GitHub" />GitHub</a
+            >
+          </div>
+          <div class="footer-created">
+            &copy; Created for Robert Śliwiński 2022
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
